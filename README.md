@@ -20,3 +20,4 @@
 - получать отчеты по финансам;
 - вести диалог с пользователем от имени тех.поддержки;
 - оповещать пользователей об изменениях посредством уведомлений
+Для админ-панели был создан отдельный репозиторий: https://github.com/dmitriyvolkov0/dance-studio-app-admin [https://github.com/dmitriyvolkov0/dance-studio-app-admin]
