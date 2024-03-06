@@ -24,3 +24,4 @@
 Админ-панель была размещена в отдельном [репозитории](https://github.com/dmitriyvolkov0/dance-studio-app-admin)
 
 ## Скриншоты
+[https://github.com/dmitriyvolkov0/dance-studio-app/blob/main/screenshots/1.jpg](https://github.com/dmitriyvolkov0/dance-studio-app/blob/main/screenshots/1.jpg)
