@@ -24,4 +24,7 @@
 Админ-панель была размещена в отдельном [репозитории](https://github.com/dmitriyvolkov0/dance-studio-app-admin)
 
 ## Скриншоты
-[Скриншот 1](/screenshots/1.jpg)
+<image
+  src="/screenshots/1.jpg"
+  alt="Текст с описанием картинки"
+  caption="Подпись под картинкой">
