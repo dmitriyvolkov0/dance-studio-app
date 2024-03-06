@@ -24,9 +24,9 @@
 Админ-панель была размещена в отдельном [репозитории](https://github.com/dmitriyvolkov0/dance-studio-app-admin)
 
 ## Скриншоты
-<image src="/screenshots/1.jpg" alt="Скриншот" caption="Скриншот">
-<image src="/screenshots/2.jpg" alt="Скриншот" caption="Скриншот">
-<image src="/screenshots/3.jpg" alt="Скриншот" caption="Скриншот">
-<image src="/screenshots/4.jpg" alt="Скриншот" caption="Скриншот">
-<image src="/screenshots/5.jpg" alt="Скриншот" caption="Скриншот">
-<image src="/screenshots/6.jpg" alt="Скриншот" caption="Скриншот">
+<img width="200px" src="/screenshots/1.jpg" alt="Скриншот" caption="Скриншот">
+<img width="200px" src="/screenshots/2.jpg" alt="Скриншот" caption="Скриншот">
+<img width="200px" src="/screenshots/3.jpg" alt="Скриншот" caption="Скриншот">
+<img width="200px" src="/screenshots/4.jpg" alt="Скриншот" caption="Скриншот">
+<img width="200px" src="/screenshots/5.jpg" alt="Скриншот" caption="Скриншот">
+<img width="200px" src="/screenshots/6.jpg" alt="Скриншот" caption="Скриншот">
