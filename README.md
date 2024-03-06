@@ -1,70 +1,26 @@
-# Getting Started with Create React App
+# dance-studio36.ru - веб-приложение для студии танцев в Воронеже.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Это веб-приложение разработано для решения проблем, с которыми сталкиваются танцевальные студии при организации записи на занятия и учете платежей. Приложение предоставляет удобный и эффективный способ управления занятиями как для организаторов студии, так и для студентов.
 
-## Available Scripts
+## Предпосылки
+У студии танцев была проблема - неудобная запись на занятия. У организатора была группа в мессенджере, куда выкладывались новые записи на занятия. Люди записывались посредством личных сообщений, в следствии чего получалась каша. Много людей записывалось на занятия, потом их отменяло. Всё это было тяжело учесть. Также бывало такое, что люди просто не приходили на занятия и организатор не просто оставался без денег, а еще и был должен за аренду зала. Было принято решение создать что-то, что поможет всё это систиматизировать.
 
-In the project directory, you can run:
+## Функциональность
+- Регистрация пользователей: Пользователи могут зарегистрироваться, используя свою электронную почту или аккаунт Google.
+- Профиль пользователя: После входа в систему пользователи могут получить доступ к своему профилю, где они могут узнать свой текущий баланс, просмотреть посещенные занятия и связаться с технической поддержкой.
+- Список занятий: Пользователи могут просматривать доступные и отмененные занятия. Они могут увидеть дату, время, количество доступных мест и другие детали для каждого занятия.
+- Запись на занятия: Пользователи могут записаться на любое доступное занятие, если у них достаточный баланс. Приложение отслеживает количество участников для каждого занятия.
+- Политика возврата средств: Если занятие отменяется более чем за 24 часа до начала, приложение автоматически возвращает средства пользователю на баланс. В противном случае, средства остаются у организатора.
+- Поддержка: В приложении реализованы функции связи с технической поддержкой.
+- Уведомления: Реализована система уведомлений пользователей.
+## Админ-панель
+Для того, чтобы администратор мог управлять работой данного приложения было разработано еще одно веб-приложение (своего рода CMS), в котором администратор мог делать следующее:
+- управлять пользователями;
+- создавать, читать, изменять, отменять занятия (в случае отмены занятия администратором все средства автоматически вернуться пользователям на баланс);
+- получать отчеты по финансам;
+- вести диалог с пользователем от имени тех.поддержки;
+- оповещать пользователей об изменениях посредством уведомлений
+  
+Админ-панель была размещена в отдельном [репозитории](https://github.com/dmitriyvolkov0/dance-studio-app-admin)
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Скриншоты
