@@ -36,4 +36,6 @@
     <img width="200px" src="/screenshots/4.jpg" alt="Скриншот" caption="Скриншот">
     <img width="200px" src="/screenshots/5.jpg" alt="Скриншот" caption="Скриншот">
     <img width="200px" src="/screenshots/6.jpg" alt="Скриншот" caption="Скриншот">
+    <img width="200px" src="/screenshots/7.jpg" alt="Скриншот" caption="Скриншот">
+    <img width="200px" src="/screenshots/8.jpg" alt="Скриншот" caption="Скриншот">
 </div>
